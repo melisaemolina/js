@@ -1,28 +1,10 @@
 const nombre= prompt ("Ingresa tu nombre")
 alert ("Bienvenid@" + " " + nombre)
-let nota = parseInt(prompt ("Ingrese su nota obtenida"))
 
-if (nota>=6 && nota<=10) { 
-    alert ("Aprobado")
-    
-} else if (nota>10) {
-    alert ("Ingrese una nota válida, entre 1 a 10.")
-}
-else { 
-    alert ("Desaprobado")
-}
-let i= 0
-for  (let i=1; i<=5; i++){
-    alert(`Se considera desaprobado la nota: ${i}`)
-}
+const email= prompt ("Ingresa tu e-mail")
+const tel= prompt ("Ingresa tu número de teléfono")
 
-let notaMaxima = 10
-
-function resta(notaMaxima,nota){
-return notaMaxima - nota;
-}
-
-let resultado = resta(notaMaxima,nota);
-
-alert (`Te faltaron ${resultado} puntos para la calificación máxima.`)
+function suscripcion (email,tel)
+let resultado = prompt ("Tu correo electrónico " + email + " y tu número de contacto" + tel + "fueron registrados. Te enviamos tu código de descuento.");
+return resultado 
 
